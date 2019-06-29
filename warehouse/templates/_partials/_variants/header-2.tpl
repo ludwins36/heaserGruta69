@@ -74,13 +74,13 @@
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
-                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin">
+                    <div id="contact" class="col col-auto" style="margin">
                     
-                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%;">{l s="Para Él"}</a>
+                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 10%;">{l s="Para Él"}</a>
                     </div>
-                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin">
+                    <div id="contact" class="col col-auto" style="margin">
                     
-                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%;">{l s="Para Élla"}</a>
+                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 10%;">{l s="Para Élla"}</a>
                     </div>
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a href="">
