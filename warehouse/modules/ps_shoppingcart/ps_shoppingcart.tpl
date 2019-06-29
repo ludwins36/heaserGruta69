@@ -3,7 +3,7 @@
         <a id="cart-toogle" class="cart-toogle header-btn header-cart-btn" data-toggle="dropdown" data-display="static">
             <img src="{$iqitTheme.theme_assets}img/shoppingcart.png"><span class="cart-products-count-btn">{$cart.products_count}</span>
             <span class="info-wrapper">
-            <span class="title">{l s='Cart' d='Shop.Theme.Checkout'}</span>
+            {* <span class="title">{l s='Cart' d='Shop.Theme.Checkout'}</span> *}
             <span class="cart-toggle-details">
             <span class="text-faded cart-separator"> / </span>
             {if $cart.products_count > 0}
