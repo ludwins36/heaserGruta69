@@ -70,15 +70,12 @@
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
-                     
-
-                    {hook h="litespeedEsiBegin" m="ps_customersignin" field="widget_block" tpl="module:ps_customersignin/ps_customersignin-btn.tpl"}
                     {widget_block name="ps_customersignin"}
                         {include 'module:ps_customersignin/ps_customersignin-btn.tpl'}
                     {/widget_block}
-                    {hook h="litespeedEsiEnd"}
+                     
 
-                    {hook h='displayHeaderButtons'}
+                    {hook h="litespeedEsiBegin" m="ps_customersignin" field="widget_block" tpl="module:ps_customersignin/ps_customersignin-btn.tpl"}
                     {if !$configuration.is_catalog}
                         {hook h="litespeedEsiBegin" m="ps_shoppingcart" field="widget_block" tpl="module:ps_shoppingcart/ps_shoppingcart-btn.tpl"}
                         {widget_block name="ps_shoppingcart"}
@@ -86,6 +83,9 @@
                         {/widget_block}
                         {hook h="litespeedEsiEnd"}
                     {/if}
+                    {hook h="litespeedEsiEnd"}
+
+                    {hook h='displayHeaderButtons'}
 
                    
                 </div>
