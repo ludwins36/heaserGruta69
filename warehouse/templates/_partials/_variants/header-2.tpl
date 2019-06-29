@@ -78,7 +78,10 @@
                     
                         <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%;">{l s="Para Él"}</a>
                     </div>
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin">
                     
+                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%;">{l s="Para Élla"}</a>
+                    </div>
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a href="">
                             <img src="{$iqitTheme.theme_assets}img/cont.png" width="70" height="80" style="margin-top: -8px; padding: 0;">
