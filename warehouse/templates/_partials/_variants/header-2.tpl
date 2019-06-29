@@ -23,6 +23,10 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 
+<style>
+
+
+</style>
 
 <div class="header-top">
     <div id="desktop-header-container" class="container">
@@ -71,16 +75,21 @@
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
                     
-                     
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
+                        <a>
+                            <img src="{$iqitTheme.theme_assets}img/cont.png" width="70" height="80" style="margin-top: -8px; padding: 0;">
+                        </a>
+                    
+                    </div>
 
                     {hook h="litespeedEsiBegin" m="ps_customersignin" field="widget_block" tpl="module:ps_customersignin/ps_customersignin-btn.tpl"}
-                    {if !$configuration.is_catalog}
-                        {hook h="litespeedEsiBegin" m="ps_shoppingcart" field="widget_block" tpl="module:ps_shoppingcart/ps_shoppingcart-btn.tpl"}
+                    {* {if !$configuration.is_catalog} *}
+                        {* {hook h="litespeedEsiBegin" m="ps_shoppingcart" field="widget_block" tpl="module:ps_shoppingcart/ps_shoppingcart-btn.tpl"} *}
                         {widget_block name="ps_shoppingcart"}
                             {include 'module:ps_shoppingcart/ps_shoppingcart-btn.tpl'}
                         {/widget_block}
                         {hook h="litespeedEsiEnd"}
-                    {/if}
+                    {* {/if} *}
                     {hook h="litespeedEsiEnd"}
 
                     {hook h='displayHeaderButtons'}

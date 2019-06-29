@@ -6,7 +6,7 @@
                 title="{l s='View my customer account' d='Shop.Theme.Customeraccount'}"
                 rel="nofollow"
         >
-            <i class="fa fa-user" aria-hidden="true"></i>
+            {* <i class="fa fa-user" aria-hidden="true"></i> *}
             <span>{$customer.firstname|truncate:15:'...'}</span>
         </a> <span class="text-faded"> / </span>
         <a
