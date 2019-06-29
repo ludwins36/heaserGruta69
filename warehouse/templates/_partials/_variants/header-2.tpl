@@ -70,9 +70,7 @@
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
-                    {widget_block name="ps_customersignin"}
-                        {include 'module:ps_customersignin/ps_customersignin-btn.tpl'}
-                    {/widget_block}
+                    
                      
 
                     {hook h="litespeedEsiBegin" m="ps_customersignin" field="widget_block" tpl="module:ps_customersignin/ps_customersignin-btn.tpl"}
@@ -86,7 +84,9 @@
                     {hook h="litespeedEsiEnd"}
 
                     {hook h='displayHeaderButtons'}
-
+                    {widget_block name="ps_customersignin"}
+                        {include 'module:ps_customersignin/ps_customersignin-btn.tpl'}
+                    {/widget_block}
                    
                 </div>
                 {hook h='displayHeaderRight'}
