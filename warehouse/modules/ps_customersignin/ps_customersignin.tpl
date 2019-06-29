@@ -1,4 +1,4 @@
-<div id="user_info">
+<div id="user_info" style="margin-top: 15%;">
     {if $logged}
         <a
                 class="account"
