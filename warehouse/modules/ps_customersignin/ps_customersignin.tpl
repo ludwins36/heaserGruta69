@@ -21,7 +21,7 @@
                 href="{$my_account_url}"
                 title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
                 rel="nofollow"
-        ><i class="fa fa-user" aria-hidden="true"></i>
+        >
             <span>{l s='Sign in' d='Shop.Theme.Actions'}</span>
         </a>
     {/if}
