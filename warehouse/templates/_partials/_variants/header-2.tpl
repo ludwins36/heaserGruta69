@@ -74,15 +74,22 @@
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" >
                     
                         <a class="btn btn-secondary btn-lg" href="#" role="button" style="margin-top: 15%; ">{l s="Para Ella"}</a>
+                    </div>
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" >
                     
                         <a class="btn btn-secondary btn-lg" href="#" role="button" style="margin-top: 15%; >{l s="Para Él"}</a>
+                    </div>
                     
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a href="">
                             <img src="{$iqitTheme.theme_assets}img/cont.png" width="70" height="80" style="margin-top: -8px; padding: 0;">
                         </a>
                     
+                    </div>
+
                     {hook h="litespeedEsiBegin" m="ps_customersignin" field="widget_block" tpl="module:ps_customersignin/ps_customersignin-btn.tpl"}
                     {* {if !$configuration.is_catalog} *}
                         {* {hook h="litespeedEsiBegin" m="ps_shoppingcart" field="widget_block" tpl="module:ps_shoppingcart/ps_shoppingcart-btn.tpl"} *}
