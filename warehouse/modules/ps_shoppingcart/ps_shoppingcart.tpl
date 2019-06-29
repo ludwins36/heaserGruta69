@@ -1,7 +1,7 @@
  <div id="blockcart" class="blockcart cart-preview"
          data-refresh-url="{$refresh_url}">
         <a id="cart-toogle" class="cart-toogle header-btn header-cart-btn" data-toggle="dropdown" data-display="static">
-            <i class="fa fa-shopping-bag fa-fw icon" aria-hidden="true"><span class="cart-products-count-btn">{$cart.products_count}</span></i>
+            <i class="fa " aria-hidden="true"><span class="cart-products-count-btn">{$cart.products_count}</span></i>
             <span class="info-wrapper">
             <span class="title">{l s='Cart' d='Shop.Theme.Checkout'}</span>
             <span class="cart-toggle-details">
