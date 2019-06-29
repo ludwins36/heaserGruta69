@@ -76,7 +76,11 @@
                 <div class="row no-gutters justify-content-end">
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin">
                     
-                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%; position: relative; right: 100px; background: #9E9E9E;">{l s="Para Él"}</a>
+                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%; position: relative; right: 250px; background: #9E9E9E;">{l s="Para Él"}</a>
+                    </div>
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin">
+                    
+                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 5%; position: relative; right: 200px; background: #9E9E9E;">{l s="Para Él"}</a>
                     </div>
                     
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
