@@ -1,7 +1,7 @@
  <div id="blockcart" class="blockcart cart-preview"
          data-refresh-url="{$refresh_url}">
         <a id="cart-toogle" class="cart-toogle header-btn header-cart-btn" data-toggle="dropdown" data-display="static">
-            <img src="{$iqitTheme.theme_assets}img/shoppingcart.png" width="70" height="80" style="margin-top: -15px; padding: 0;"><span class="cart-products-count-btn">{$cart.products_count}</span>
+            <img src="{$iqitTheme.theme_assets}img/shoppingcart.png" width="70" height="80" style="margin-top: -5%; padding: 0;"><span class="cart-products-count-btn">{$cart.products_count}</span>
             <span class="info-wrapper">
             {* <span class="title">{l s='Cart' d='Shop.Theme.Checkout'}</span> *}
             <span class="cart-toggle-details">

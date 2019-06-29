@@ -38,6 +38,12 @@
         </h3>
     {/block}
 
+     {block name='product_description_short'}
+        <div class="product-description-short text-muted">
+            {$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
+        </div>
+    {/block}
+
     {block name='product_brand'}
         {if isset($product.manufacturer_name ) && $product.manufacturer_name != ''}
             <div class="product-brand text-muted">{$product.manufacturer_name}</div>{/if}
@@ -84,11 +90,7 @@
         {/if}
     {/block}
 
-    {block name='product_description_short'}
-        <div class="product-description-short text-muted">
-            {$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
-        </div>
-    {/block}
+   
 
     {block name='product_add_cart'}
         {include file='catalog/_partials/miniatures/_partials/product-miniature-btn.tpl'}
