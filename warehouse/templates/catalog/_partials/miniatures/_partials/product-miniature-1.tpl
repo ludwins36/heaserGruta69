@@ -22,6 +22,11 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+
+ {block name='hook_display_product_rating'}
+            {hook h='displayProductRating' product=$product}
+ {/block}
+
 {block name='product_thumbnail'}
     {include file='catalog/_partials/miniatures/_partials/product-miniature-thumb.tpl'}
 {/block}
