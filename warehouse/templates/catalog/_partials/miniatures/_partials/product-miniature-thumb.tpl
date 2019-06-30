@@ -74,11 +74,12 @@
 
 
         {block name='product_flags'}
-            <ul class="product-flags">
+            <ul class="product-flags" style="display: inline-block;">
                 {foreach from=$product.flags item=flag}
                     
+                    <img src="{$iqitTheme.theme_assets}img/rating.png" width="150" height="15">
                     <li class="product-flag {$flag.type}">{$flag.label}
-                        <img src="{$iqitTheme.theme_assets}img/rating.png" width="150" height="15"><span class="cart-products-count-btn">{$cart.products_count}</span>
+                        {* <span class="cart-products-count-btn">{$cart.products_count}</span> *}
                         {if $flag.type == 'discount'}
                             {* <span class="flag-discount-value"> / *}
                             {if $product.discount_type === 'percentage'}
