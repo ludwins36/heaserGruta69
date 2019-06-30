@@ -32,7 +32,7 @@
             <div class="product-category-name text-muted">{$product.category_name}</div>{/if}
     {/block}
 
-    {* {block name='product_name'}
+    {block name='product_name'}
         <h3 class="h3 product-title" itemprop="name">
             <a href="{$product.url}">{$product.name|truncate:90:'...'}</a>
         </h3>
@@ -56,7 +56,7 @@
 
     {block name='product_reviews'}
         {hook h='displayProductListReviews' product=$product}
-    {/block} *}
+    {/block}
 
     {block name='product_price_and_shipping'}
         {if $product.show_price}
