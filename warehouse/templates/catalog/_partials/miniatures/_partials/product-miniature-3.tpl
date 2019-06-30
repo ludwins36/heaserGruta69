@@ -27,7 +27,7 @@
 {/block}
 
 <div class="product-description">
-    {* <div class="product-description-inner">
+    <div class="product-description-inner">
         <a href="{$product.url}" class="product-overlay-link"></a>
         {block name='product_category_name'}
             {if $product.category_name != ''}
@@ -110,7 +110,7 @@
 
         {block name='product_add_cart_below'}
             {hook h='displayProductListBelowButton' product=$product}
-        {/block} *}
+        {/block}
 
     </div>
 </div>

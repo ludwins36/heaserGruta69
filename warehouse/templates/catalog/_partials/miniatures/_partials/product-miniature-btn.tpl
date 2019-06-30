@@ -24,7 +24,7 @@
  *}
 
 <div class="product-add-cart">
-    {* {if $product.add_to_cart_url && ($product.quantity > 0 || $product.allow_oosp) && !$configuration.is_catalog}
+    {if $product.add_to_cart_url && ($product.quantity > 0 || $product.allow_oosp) && !$configuration.is_catalog}
         <form action="{$product.add_to_cart_url}" method="post">
 
             <input type="hidden" name="id_product" value="{$product.id}">
@@ -55,5 +55,5 @@
            class="btn btn-product-list"
         > {l s='View' d='Shop.Theme.Actions'}
         </a>
-    {/if} *}
+    {/if}
 </div>
