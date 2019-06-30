@@ -70,6 +70,10 @@
                 {/if}
             {/if}
         </a>
+        {block name='hook_display_product_rating'}
+            {hook h='displayProductRating' product=$product}
+        {/block}
+
 
         {block name='product_flags'}
             <ul class="product-flags">
