@@ -76,7 +76,7 @@
         {block name='product_flags'}
             <ul class="product-flags">
                 {foreach from=$product.flags item=flag}
-                <img src="{$iqitTheme.theme_assets}img/rating.png" width="30" height="15"><span class="cart-products-count-btn">{$cart.products_count}</span>
+                <img src="{$iqitTheme.theme_assets}img/rating.png" width="150" height="15"><span class="cart-products-count-btn">{$cart.products_count}</span>
                     
                     <li class="product-flag {$flag.type}">{$flag.label}
                         {if $flag.type == 'discount'}
