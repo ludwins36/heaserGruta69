@@ -70,14 +70,13 @@
                 {/if}
             {/if}
         </a>
-        {block name='hook_display_product_rating'}
-            {hook h='displayProductRating' product=$product}
-        {/block}
+        
 
 
         {block name='product_flags'}
             <ul class="product-flags">
                 {foreach from=$product.flags item=flag}
+                    {hook h='displayProductRating' product=$product}
                     <li class="product-flag {$flag.type}">{$flag.label}
                         {if $flag.type == 'discount'}
                             <span class="flag-discount-value"> /
