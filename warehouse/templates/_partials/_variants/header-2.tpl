@@ -74,9 +74,13 @@
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
                 <div class="row no-gutters justify-content-end">
+                
+
                     <div id="contact" class="col col-auto" style="position: relative; right: 30%;">
                     
-                        <a class="btn btn-primary" href="#" role="button" style="margin-top: 10%; background: #BDBDBD;">{l s="Para Él"}</a>
+                        <a href="#" style="margin-top: 10%;">
+                            <img src="{$iqitTheme.theme_assets}img/boton1.png" width="70" height="30" style="margin-top: -8px; padding: 0;">
+                        </a>
                     </div>
                     <div id="contact" class="col col-auto" style="position: relative; right: 28%;">
                     
