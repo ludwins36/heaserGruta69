@@ -74,11 +74,10 @@
 
 
         {block name='product_flags'}
-                    <img src="{$iqitTheme.theme_assets}img/rating.png" width="150" height="15">
-
-            <ul class="product-flags">
+            <ul class="product-flags" style="display: flex;">
                 {foreach from=$product.flags item=flag}
                     
+                    <img src="{$iqitTheme.theme_assets}img/rating.png" width="150" height="15">
                     <li class="product-flag {$flag.type}">{$flag.label}
                         {* <span class="cart-products-count-btn">{$cart.products_count}</span> *}
                         {if $flag.type == 'discount'}
