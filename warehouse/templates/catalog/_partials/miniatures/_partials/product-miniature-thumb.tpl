@@ -24,7 +24,7 @@
  *}
 
     <div class="thumbnail-container">
-        <a href="{$product.url}" class="thumbnail product-thumbnail">
+        {* <a href="{$product.url}" class="thumbnail product-thumbnail">
 
             {if $product.cover}
                 <img
@@ -116,7 +116,7 @@
                     {/if}
             </div>
         {/block}
-        {/if}
+        {/if} *}
 
     </div>
 

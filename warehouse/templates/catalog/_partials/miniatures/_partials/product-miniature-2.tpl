@@ -28,7 +28,7 @@
 
 <div class="product-description">
 
-    {if $product.has_discount}
+    {* {if $product.has_discount}
         {hook h='displayCountDown'}
     {/if}
 
@@ -106,6 +106,6 @@
 
     {block name='product_add_cart_below'}
         {hook h='displayProductListBelowButton' product=$product}
-    {/block}
+    {/block} *}
 
 </div>
