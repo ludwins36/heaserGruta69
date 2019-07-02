@@ -51,3 +51,7 @@
     align-items: center;
     margin: 0 .25rem;
 }
+
+.botons-men a {
+    border: none;
+}
