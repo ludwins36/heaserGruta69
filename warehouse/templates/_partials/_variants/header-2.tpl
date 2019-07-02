@@ -87,9 +87,9 @@
                     <div id="contact" class="col col-auto botons-men">
                     
                          <div class="boton_el_ella">
-                            <a class="btn para_el_ella" href="https://gruta69.com/es/25-vibradores" role="button">
-                            <img src="{$iqitTheme.theme_assets}img/gender.svg" class="masculine"><span>{l s="Para Él"}</span>
-                        </a>
+                            <a class="btn para_el_ella" href="https://gruta69.com/es/28-para-el" role="button">
+                                <img src="{$iqitTheme.theme_assets}img/gender.svg" class="masculine"><span>{l s="Para Él"}</span>
+                            </a>
                         </div>
                     </div>
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">

@@ -88,9 +88,9 @@
                 {/if}
             {/block}
 
-            {block name='product_reviews'}
+            {* {block name='product_reviews'}
                 {hook h='displayProductListReviews' product=$product}
-            {/block}
+            {/block} *}
         </div>
     </div>
 

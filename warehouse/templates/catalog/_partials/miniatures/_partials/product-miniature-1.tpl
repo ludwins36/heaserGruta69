@@ -56,9 +56,9 @@
             <div class="product-reference text-muted">{$product.reference}</div>{/if}
     {/block}
 
-    {block name='product_reviews'}
+    {* {block name='product_reviews'}
         {hook h='displayProductListReviews' product=$product}
-    {/block}
+    {/block} *}
 
     {block name='product_price_and_shipping'}
         {if $product.show_price}
