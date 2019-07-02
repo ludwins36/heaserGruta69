@@ -94,7 +94,7 @@
                     </div>
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a href="">
-                            <img src="{$iqitTheme.theme_assets}img/cont.png" width="70" height="80" style="margin-top: -8px; padding: 0;">
+                            <img class="img-help" src="{$iqitTheme.theme_assets}img/cont.png">
                         </a>
                     
                     </div>
