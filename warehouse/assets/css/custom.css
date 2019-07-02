@@ -83,7 +83,6 @@
 
 .title {
     display: block;
-    color: #707070;
 }
 
 .img-help {
@@ -107,5 +106,5 @@
     line-height: 1.2;
     letter-spacing: normal;
     text-align: left;
-    color: #707070;
+    color: #707070 !important;
 }

@@ -92,14 +92,16 @@
                             </a>
                         </div>
                     </div>
-                    <div id="contact" class="col col-auto header-btn-w cart-btns header-user-btn-w">
-                        <a href="">
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
+                      <div class="boton_el_ella">
+                        <a class="cart-btns" href="">
                             <img class="" src="{$iqitTheme.theme_assets}img/cont.png">
                             <span class="info-wrapper">
                                 <span class="title">{l s='AYUDA'}</span>
                             </span>
 
                         </a>
+                      </div>
                     
                     </div>
 
