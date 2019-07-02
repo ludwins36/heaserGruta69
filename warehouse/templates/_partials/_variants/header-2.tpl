@@ -96,7 +96,7 @@
                         <a class="cart-btns" href="">
                             <img class="img-help" src="{$iqitTheme.theme_assets}img/cont.png">
                             <span class="info-wrapper">
-                                <span class="title">{l s='AYUDA'}</span>
+                                <span class="custome-title">{l s='AYUDA'}</span>
                             </span>
 
                         </a>

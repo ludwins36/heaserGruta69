@@ -5,7 +5,7 @@
            title="{l s='View my customer account' d='Shop.Theme.Customeraccount'}"
            {* rel="nofollow" class="header-btn header-user-btn"> *}
             {* <i class="fa fa-user fa-fw icon" aria-hidden="true"></i> *}
-            <span class="title">{$customer.firstname|truncate:15:'...'}</span>
+            <span class="title custome-title">{$customer.firstname|truncate:15:'...'}</span>
         </a>
     {else}
         <a class="cart-btns" href="{$my_account_url}"
@@ -13,7 +13,7 @@
            rel="nofollow" class="header-btn header-user-btn">
             {* <i class="fa fa-user fa-fw icon" aria-hidden="true"></i> *}
 
-            <span class="title">{l s='LOGIN'}</span>
+            <span class="title custome-title">{l s='LOGIN'}</span>
         </a>
     {/if}
 </div>
