@@ -57,11 +57,19 @@
 }
 
 .product-flag {
-    margin-left: 20%;
+    margin-left: 10%;
+
+    margin-top: 20px !important;
 }
 
 .iqitreviews-simple {
     font-size: 1.7rem !important;
+    padding: 10px;
+}
+
+.iqit-review-star {
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 .product-flag {
