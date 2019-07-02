@@ -49,4 +49,5 @@
 .botons-men {
     display: flex;
     align-items: center;
+    margin: 0 .25rem;
 }
