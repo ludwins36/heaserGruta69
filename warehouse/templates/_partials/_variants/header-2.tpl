@@ -95,6 +95,8 @@
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a href="">
                             <img class="img-help" src="{$iqitTheme.theme_assets}img/cont.png">
+                            <span class="title">{l s='AYUDA'}</span>
+
                         </a>
                     
                     </div>

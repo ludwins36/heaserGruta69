@@ -12,8 +12,8 @@
            title="{l s='Log in to your customer account' d='Shop.Theme.Customeraccount'}"
            rel="nofollow" class="header-btn header-user-btn">
             {* <i class="fa fa-user fa-fw icon" aria-hidden="true"></i> *}
-            
-            <span class="title">{l s='Sign in' d='Shop.Theme.Actions'}</span>
+
+            <span class="title">{l s='LOGIN'}</span>
         </a>
     {/if}
 </div>
