@@ -80,3 +80,31 @@
 .search-widget {
     max-width: 100% !important;
 }
+
+.title {
+    display: block;
+}
+
+.img-help {
+    width: 36.7px;
+    height: 35.2px;
+}
+
+.img-cart {
+    width: 26.2px;
+    height: 26.2px;
+}
+
+.cart-btns {
+    width: 242px;
+    height: 12px;
+    font-family: MuseoSans;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
