@@ -25,13 +25,17 @@
     border-radius: 39px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
     background-image: linear-gradient(to bottom, #f4f0f2, #b5b5b5) !important;
+    display: flex;
+    align-items: center;
+    /* padding: .5rem; */
+    justify-content: center;
 }
 
 .femenine {
     width: 22.2px;
     height: 33.4px;
     object-fit: contain;
-    margin: 0 1rem;
+    margin: .3rem .5rem;
 }
 
 .masculine {
