@@ -5,7 +5,7 @@
             <img src="{$iqitTheme.theme_assets}img/shoppingcart.png" class="img-help">
             {* <span class="cart-products-count-btn">{$cart.products_count}</span> *}
             <span class="info-wrapper">
-            <span class="title">{l s='CARRITO' }</span>
+            <span class="title custome-title">{l s='CARRITO' }</span>
             <span class="cart-toggle-details">
             <span class="text-faded cart-separator"> / </span>
             {if $cart.products_count > 0}
