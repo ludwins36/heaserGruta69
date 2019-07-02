@@ -94,7 +94,7 @@
                     </div>
                     <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
                         <a class="cart-btns" href="">
-                            <img class="" src="{$iqitTheme.theme_assets}img/cont.png">
+                            <img class="img-help" src="{$iqitTheme.theme_assets}img/cont.png">
                             <span class="info-wrapper">
                                 <span class="title">{l s='AYUDA'}</span>
                             </span>
