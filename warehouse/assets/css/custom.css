@@ -2,3 +2,37 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+
+.boton_el_ella {
+    width: 155.2px;
+    height: 41px;
+    border-radius: 39px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16) !important;
+    background-image: linear-gradient(to bottom, #f4f0f2, #b5b5b5) !important;
+}
+
+.para_el_ella {
+    width: 56.2px;
+    height: 16.1px;
+    font-family: MuseoSans;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.femenine {
+    width: 22.2px;
+    height: 33.4px;
+    object-fit: contain;
+}
+
+.masculine {
+    width: 29.1px;
+    height: 29.1px;
+    object-fit: contain;
+}
