@@ -83,6 +83,7 @@
 
 .title {
     display: block;
+    margin-top: 0 !important;
 }
 
 .img-help {
@@ -91,7 +92,7 @@
 }
 
 .img-cart {
-    width: 26.2px;
+    width: 36.2px;
     height: 26.2px;
 }
 

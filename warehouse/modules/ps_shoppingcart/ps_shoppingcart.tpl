@@ -2,7 +2,8 @@
  <div id="blockcart" class="blockcart cart-preview"
          data-refresh-url="{$refresh_url}">
         <a id="cart-toogle" class="cart-toogle cart-btns header-btn header-cart-btn" data-toggle="dropdown" data-display="static">
-            <img src="{$iqitTheme.theme_assets}img/shoppingcart.png" class="img-cart"><span class="cart-products-count-btn">{$cart.products_count}</span>
+            <img src="{$iqitTheme.theme_assets}img/shoppingcart.png" class="img-help">
+            {* <span class="cart-products-count-btn">{$cart.products_count}</span> *}
             <span class="info-wrapper">
             <span class="title">{l s='CARRITO' }</span>
             <span class="cart-toggle-details">
