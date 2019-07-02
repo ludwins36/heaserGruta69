@@ -57,9 +57,9 @@
 }
 
 .product-flag {
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
 .iqitreviews-simple {
-    font-size: 1.7rem;
+    font-size: 1.7rem !important;
 }
