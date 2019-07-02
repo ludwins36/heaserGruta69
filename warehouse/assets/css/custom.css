@@ -42,4 +42,11 @@
     width: 29.1px;
     height: 29.1px;
     object-fit: contain;
+    margin: .3rem .5rem;
+
+}
+
+.botons-men {
+    display: flex;
+    align-items: center;
 }

@@ -73,7 +73,7 @@
                 </div>
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
-                <div class="row no-gutters justify-content-end">
+                <div class="row botons-men no-gutters justify-content-end">
                 
 
                     <div id="contact" class="col col-auto">
