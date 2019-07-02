@@ -84,11 +84,11 @@
                         </a>
                         </div>
                     </div>
-                    <div id="contact" class="col col-auto" style="position: relative;right: 30%;top: 10%; align-items: center;display: flex;">
+                    <div id="contact" class="col col-auto">
                     
                          <div class="boton_el_ella">
                             <a class="btn para_el_ella" href="https://gruta69.com/es/25-vibradores" role="button">
-                            <img src="{$iqitTheme.theme_assets}img/gender.svg" class="femenine"><span>{l s="Para Él"}</span>
+                            <img src="{$iqitTheme.theme_assets}img/gender.svg" class="masculine"><span>{l s="Para Él"}</span>
                         </a>
                         </div>
                     </div>
