@@ -80,7 +80,7 @@
                     
                         <div class="boton_el_ella ">
                             <a class="btn para_el_ella" href="https://gruta69.com/es/25-vibradores" role="button">
-                            <img src="{$iqitTheme.theme_assets}img/femenine-1.svg" class="femenine"><span>{l s="Para Ella"}</span>
+                            <img src="{$iqitTheme.theme_assets}img/femenine-1.svg" class="femenine"><span>{l s="PARA ELLA"}</span>
                         </a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                     
                          <div class="boton_el_ella">
                             <a class="btn para_el_ella" href="https://gruta69.com/es/28-para-el" role="button">
-                                <img src="{$iqitTheme.theme_assets}img/gender.svg" class="masculine"><span>{l s="Para Él"}</span>
+                                <img src="{$iqitTheme.theme_assets}img/gender.svg" class="masculine"><span>{l s="PARA ÉL"}</span>
                             </a>
                         </div>
                     </div>
