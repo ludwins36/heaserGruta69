@@ -81,7 +81,7 @@
     max-width: 100% !important;
 }
 
-.title {
+.custome-title {
     display: block;
     margin-top: 0 !important;
 }
@@ -97,8 +97,8 @@
 }
 
 .cart-btns {
-    width: 242px;
-    height: 12px;
+    /* width: 242px; */
+    /* height: 12px; */
     font-family: MuseoSans;
     font-size: 10px;
     font-weight: bold;
