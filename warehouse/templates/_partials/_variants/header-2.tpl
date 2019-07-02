@@ -73,7 +73,7 @@
                 </div>
             {/if}
             <div class="col {if $iqitTheme.h_logo_position == 'left'}col-auto{/if} col-header-right">
-                <div class="row no-gutters justify-content-end">
+                <div class="row no-gutters justify-content-start" style="width: 50vw;" >
                 
 
                     <div id="contact" class="col col-auto botons-men">
@@ -92,7 +92,7 @@
                             </a>
                         </div>
                     </div>
-                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w">
+                    <div id="contact" class="col col-auto header-btn-w header-user-btn-w" style="margin-left: 20%;">
                         <a class="cart-btns" href="">
                             <img class="img-help" src="{$iqitTheme.theme_assets}img/cont.png">
                             <span class="info-wrapper">

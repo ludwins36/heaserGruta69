@@ -1,4 +1,4 @@
-<div id="header-user-btn" class="col col-auto header-btn-w header-user-btn-w" style="margin-top: 6%;">  
+<div id="header-user-btn" class="col col-auto header-btn-w header-user-btn-w" style="margin-top: 5%;">  
     {if $logged}
 
         <a class="cart-btns" href="{$my_account_url}"
