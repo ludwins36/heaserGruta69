@@ -76,7 +76,9 @@
         {block name='product_flags'}
             <ul class="product-flags" style="display: flex;">
                 {foreach from=$product.flags item=flag}
-                    
+                    {block name='product_reviews'}
+                    {hook h='displayProductListReviews' product=$product}
+                    {/block}
                     <li class="product-flag {$flag.type}">{$flag.label}
                         {* <span class="cart-products-count-btn">{$cart.products_count}</span> *}
                         {if $flag.type == 'discount'}
