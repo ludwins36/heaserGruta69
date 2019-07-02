@@ -76,11 +76,13 @@
                 <div class="row no-gutters justify-content-end">
                 
 
-                    <div id="contact" class="col col-auto boton_el_ella" style="position: relative;right: 30%;top: 10%; align-items: center;display: flex;">
+                    <div id="contact" class="col col-auto" style="position: relative;right: 30%;top: 10%; align-items: center;display: flex;">
                     
-                        <a class="btn para_el_ella" href="https://gruta69.com/es/25-vibradores" role="button" style="margin-top: 10%;">
+                        <div class="boton_el_ella">
+                            <a class="btn para_el_ella" href="https://gruta69.com/es/25-vibradores" role="button" style="margin-top: 10%;">
                             <img src="{$iqitTheme.theme_assets}img/femenine-1.svg" class="femenine"><span>{l s="Para Ella"}</span>
                         </a>
+                        </div>
                     </div>
                     <div id="contact" class="col col-auto" style="position: relative;right: 30%;top: 10%; align-items: center;display: flex;">
                     
