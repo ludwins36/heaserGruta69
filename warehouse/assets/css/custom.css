@@ -96,6 +96,12 @@
     height: 26.2px;
 }
 
+.img-user {
+    width: 28.5px;
+    height: 35.2px;
+    object-fit: contain;
+}
+
 .cart-btns {
     /* width: 242px; */
     /* height: 12px; */
