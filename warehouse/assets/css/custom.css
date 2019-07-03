@@ -99,6 +99,7 @@
 .img-user {
     width: 23.5px;
     height: 35.2px;
+    margin-left: 3px;
     object-fit: contain;
 }
 
